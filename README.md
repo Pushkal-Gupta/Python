@@ -1,52 +1,61 @@
-# Python Algorithms
+# Python Algorithms in Action
 
-This repository contains a growing collection of **classic algorithms implemented using 100% pure Python**, along with simple examples that demonstrate how each algorithm works and how it can be used.
+This repository contains **pure Python implementations** focused on algorithms, logic, and problem-solving using clear, readable code.
 
-The goal is clarity, correctness, and learning — not performance tricks or external libraries.
-
----
-
-## What This Repository Covers
-
-- Fundamental algorithms written in plain Python  
-- Clear, readable implementations  
-- Simple usage examples for each algorithm  
-- Code meant for learning, revision, and reference  
+Currently, the repository includes a complete **command-line implementation of Klondike Solitaire**, built entirely with core Python.
 
 ---
 
-## Algorithm Categories
+## Solitaire (Klondike)
 
-Examples of what you’ll find here:
+`solitaire.py` is a terminal-based version of Klondike Solitaire that demonstrates how game rules and state can be modeled cleanly in Python.
 
-- Sorting algorithms (e.g., bubble sort, merge sort)
-- Searching algorithms (e.g., linear search, binary search)
-- Basic recursion problems
-- Mathematical and number-based algorithms
-- Game logic and problem-solving scripts
+It showcases:
+- Object-oriented design
+- Rule-based decision logic
+- State transitions and validation
+- Command-line user interaction
+
+No external libraries are used.
 
 ---
 
+## How to Run
+
+```bash
+python solitaire.py
+```
+
+Follow the on-screen instructions to play.
+
+---
+
+## Commands
+
+- `mw` — move card from Stock to Waste  
+- `wf` — move card from Waste to Foundation  
+- `wt #` — move card from Waste to a Tableau column  
+- `tf #` — move card from Tableau to Foundation  
+- `tt #1 #2` — move cards between Tableau columns  
+- `h` — help  
+- `q` — quit  
+
+*(Hearts/Diamonds are red, Spades/Clubs are black.)*
+
+---
 
 ## Purpose
 
-This repository is intended to:
-- Strengthen core Python problem-solving skills  
-- Serve as a quick reference for algorithm implementations  
-- Act as a learning log during the Python journey  
+This repository is a learning-focused space to:
 
----
+- Practice writing clean Python code  
+- Build logic-heavy programs from scratch  
+- Develop strong algorithmic thinking  
 
-## Out of Scope
-
-- Machine learning or AI  
-- Framework-based implementations  
-- Optimized or low-level performance hacks  
-
-This repo values **readability over cleverness**.
+More algorithms and logic-based programs will be added over time.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License.
+MIT License
